@@ -3,6 +3,7 @@
 }
 
 #main {
+    margin: 150px 0px 30px 10px;
     height: auto;
     width: auto;
     /* border: 1px solid black; */
@@ -25,6 +26,7 @@
     width: 100%;
     /* border: 1px solid red; */
     margin-left: 30px;
+    
 }
 
 #container {
@@ -32,11 +34,11 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-img {
+#container img {
     height: 300px;
 }
 
- button {
+#container button {
     background-color: black;
     color: white;
     width: 300px;
@@ -44,11 +46,11 @@ img {
     margin-left: 20px;
 }
 
-h3 {
+#container h3 {
     text-align: center;
 }
 
-p {
+#container p {
     text-align: center;
 }
 

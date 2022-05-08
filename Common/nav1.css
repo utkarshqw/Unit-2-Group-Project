@@ -1,0 +1,219 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Source Sans Pro', sans-serif;
+     /* box-sizing: border-box; */
+ }
+/* body{
+    background-color: greenyellow;
+} */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar{
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+ #part1 {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-right: 40px;
+     position: relative;
+ }
+
+ .search-bar input {
+     width: 250px;
+     padding: 5px;
+ }
+
+ .left-flex img {
+     width: 300px;
+ }
+
+ .search {
+     padding: 5px;
+     margin: -5px;
+ }
+
+ .user {
+     margin-right: -120px;
+ }
+
+ .account,
+ .cart {
+     display: inline;
+     /* margin: 5px; */
+     font-size: 20px;
+ }
+
+ .account-menu a {
+     text-decoration: none;
+ }
+
+ .account-menu button {
+     width: 200px;
+     padding: 5px 30px;
+     display: block;
+     margin: 15px 0px;
+     cursor: pointer;
+ }
+
+ .account-menu {
+     position: absolute;
+     background-color: white;
+     padding: 10px;
+     visibility: hidden;
+     opacity: 0;
+     transition: all 0.5s ease;
+ }
+
+ .user:hover {
+     background-color: rgba(128, 128, 128, 0.274);
+     cursor: pointer;
+ }
+
+ .user:hover .account-menu {
+     visibility: visible;
+     opacity: 1;
+     cursor: pointer;
+ }
+
+ .account-menu .login {
+     background-color: black;
+ }
+
+ .account-menu .login a {
+     color: white;
+ }
+
+ .account-menu .signup {
+     background-color: white;
+ }
+
+ .account-menu .signup a {
+     color: black;
+ }
+
+ .account-menu p {
+     margin: 20px 0px;
+ }
+
+ #part2 .menu-bar {
+     display: inline-flex;
+ }
+
+ #part2 .menu-bar li a {
+     color: black;
+     text-decoration: none;
+     /* opacity: 0.8; */
+ }
+
+ #part2 .menu-bar li:hover {
+     background-color: rgba(128, 128, 128, 0.205);
+ }
+
+ #part2 .menu-bar li {
+     padding: 5px 10px;
+ }
+
+ .menu-bar ul {
+     position: relative;
+ }
+
+ .sub-menu-brand li {
+     display: inline-block;
+     font-weight: bold;
+     left: 0;
+ }
+
+ .sub-menu-brand {
+     position: absolute;
+     padding-top: 10px;
+     margin-top: 5px;
+     width: 100%;
+     visibility: hidden;
+     opacity: 0;
+     background-color: white;
+ }
+
+ #part2 .menu-bar li:hover .sub-menu-brand {
+     visibility: visible;
+     opacity: 1;
+ }
+ .sub-menu{
+     position: absolute;
+     /* display: flex;
+     justify-content: space-between; */
+     display: grid;
+     grid-template-columns: repeat(6,1fr);
+     grid-template-rows: auto;
+     width: 95%;
+     padding-top: 10px;
+     left:15px;
+     background-color: white;
+     visibility: hidden;
+     opacity: 0;
+     transition: all 0.3s ease;
+ }
+ .sub-menu .row{
+     margin:10px 10px;
+ }
+ .sub-menu .row li{
+     list-style: none;
+     line-height: 20px;
+ }
+ .row h3{
+     margin: 20px 10px;
+     font-size: 16px;
+     font-weight: bold;
+ }
+ .row h3:hover{
+     background-color: rgba(128, 128, 128, 0.26);
+ }
+ #part2 .menu-bar li:hover .sub-menu{
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+.sub-menu-makeup{
+    width: 70%;
+    grid-template-columns: repeat(5,1fr);
+}
+.sub-menu-hair{
+    width: 60%;
+    grid-template-columns: repeat(4,1fr);
+    left: 10%; 
+}
+.sub-menu-bath{
+    width: 70%;
+    grid-template-columns: repeat(5,1fr);
+    left: 10%; 
+}
+.sub-menu-tools{
+    width: 40%;
+    grid-template-columns: repeat(3,1fr);
+    left: 30%;   
+}
+.sub-menu-gifts{
+    left: 50%;
+    width: 15%;
+    grid-template-columns: repeat(1,1fr); 
+}
+.sub-menu-new{
+    left: 65%;
+    width: 15%;
+    grid-template-columns: repeat(1,1fr); 
+}
+.sub-menu-101{
+    left: 40%;
+    width: 55%;
+    grid-template-columns: repeat(3,1fr); 
+}
+.sub-menu-101 img{
+    width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

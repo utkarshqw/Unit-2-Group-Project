@@ -23,7 +23,7 @@ var dataPhoto = [{
     name: "Herbivore Lauder GENES All-In-One Lactic Acid Treatment(1.7 oz-%175 value)",
     price: "$38.00",
     productPrice: 38,
-    productQuantity: 1,
+    productQuantity:1,
 }, {
     image_url: "https://static.thcdn.com/images/small/webp//productimg/original/11659771-1974866362012160.jpg",
     name: "REN CleanOrg. SKIN PERFECTING 2 BHA Liquid Exfoliant(4fl.oz.)",
