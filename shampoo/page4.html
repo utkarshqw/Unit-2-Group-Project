@@ -10,18 +10,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <style>
 
     </style>
 </head>
 
 <body>
-    <div id="brand">
+    <div id="nav-placeholder"> 
+    </div>
+
+    <!-- <div id="brand">
         <p class="home">
             Home /Hair Care Products/Shampoo
-        </p>
-
+        </p> -->
     </div>
     <div id="main">
         <div id="refine">
@@ -144,4 +146,9 @@
 
 </html>
 <script src="page4.js ">
+</script>
+<script>
+    $(function(){
+      $("#nav-placeholder").load("../Nav/nav.html");
+    });
 </script>

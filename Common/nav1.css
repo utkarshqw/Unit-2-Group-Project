@@ -83,20 +83,13 @@
 
  .account-menu .login {
      background-color: black;
- }
-
- .account-menu .login a {
      color: white;
  }
 
- .account-menu .signup {
+.account-menu .signup {
      background-color: white;
- }
-
- .account-menu .signup a {
      color: black;
  }
-
  .account-menu p {
      margin: 20px 0px;
  }
