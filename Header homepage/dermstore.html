@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="glider.min.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-
+    <div id="full-container">
+    <div id="nav-placeholder"> 
+    </div>
 
     <!-- first responsive slot 1 strip -->
 <div id="ft137_responsive_slot">
@@ -38,18 +40,6 @@
     Pay in 4 with Sezzle
    </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- end responsive slot 1 strip  -->
     <!-- strip banner-strip1 -->
@@ -184,7 +174,7 @@
             <img class="bestSellersSlider_img" src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289609-1174892770940184.jpg" alt="">
             <a class="bestSellersSlider_txt" href=""><p>skinCeuticals C E Ferulic(1 fl. oz.)</p></a>
             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="80" height="16" viewBox="0 0 84 16"> -->
-            <h4 class="bestSellersSlider_txt">4 star : 481</h4>
+            <h4 class="bestSellersSlider_txt">reviews : 481</h4>
             <h4 class="bestSellersSlider_txt">$169.00</h4>
             <button class="quick_buy_best_sellers_area">QUICK BUY</button>
             </div>
@@ -375,7 +365,7 @@
         <!-- 5th img  -->
         <div>
             <img class="NewArrivals_img" src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/12434369-1354902066725478.jpg" alt="">
-            <a href=""><p>skinCeuticals C E Ferulic (1 fl. oz.) 250ml</p></a>
+            <a href=""><p>skinCeuticals C E Ferulic SkinCare (1 fl. oz.) 250ml</p></a>
             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="80" height="16" viewBox="0 0 84 16"> -->
             <h4>New Arrivals</h4>
             <h4>$30.00</h4>
@@ -388,9 +378,8 @@
 <!--end  New Arrivals section -->
 
 <!-- skinCancer Awareness Banner  -->
-<picture>
 		<img class="generalImageBanner_image" src="https://static.thcdn.com/images/large/webp/widgets/208-us/40/original-0429-STDCRE-35241-CM-DS-Disrupter-Banner-SCF-1640x244--022640.jpg" crossorigin="" alt="Skin Cancer Awareness Month. May is Skin Cancer Awareness Month. Discover SPF products to help decrease your risk of skin cancers and help protect the skin from harmful UV rays." width="1440px" height="450px">
-	</picture>
+
 <!-- featured Brands -->
 <div class="brandLogos_container">
     <div class="brandLogos_title brandLogos_title-center">Featured Brands</div>
@@ -486,7 +475,15 @@ new Glider(document.querySelector(".glider"),{
 })
 
    </script>
-
-
+<div id="footer"></div>
+</div>
 </body>
 </html>
+<script>
+    $(function(){
+      $("#footer").load("../Footer/footer.html");
+    });
+    $(function(){
+      $("#nav-placeholder").load("../Nav/nav.html");
+    });
+</script>

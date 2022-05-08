@@ -1,7 +1,9 @@
-*{
+
+#full-container{
+    margin-top: 140px;
+    margin-left: 10px;
     font-family: "Poly Regular","Times New Roman",serif;
 }
-
 .firstImg{
     display: block;
 }
@@ -198,6 +200,7 @@ font-weight: 400;
 .SkinMedica_img ~ h4{
     text-align: center;
     font-size: 14px;
+    margin: 10px 0px;
 }
 
 
@@ -206,15 +209,11 @@ font-weight: 400;
     font-size: 14px;
 }
 
-
-
 .div_eightBtn_title{
     width: 95%;
     height: 200px;
     margin: auto;
     /* border: 2px solid red; */
-    
-
 }
 
 .div_eightBtn_title>p{
@@ -224,12 +223,10 @@ font-weight: 400;
 
 }
 
-
-
 #eightBtn_itemContainer{
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     height: 120px;
     /* border: 2px solid #07eaff; */
     margin: auto;
@@ -253,7 +250,6 @@ font-weight: 400;
     
 }
 
-
 .eightButtonLink_text{
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -261,7 +257,6 @@ font-weight: 400;
     padding-top: 12px;
     text-align: center;
 }
-
 
 /* Best sellers section */
 
@@ -282,13 +277,14 @@ font-weight: 400;
 }
 .bestSellersSlider_txt{
     text-decoration: none;
+    margin-top: 10px;
 }
 
 #slider_best_seller{
     display: grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(1,514px);
-    gap: 19px;
+    gap: 5px;
 }
 
 #slider_best_seller > div{
@@ -314,6 +310,7 @@ font-weight: 400;
     color: white;
     font-weight: 400;
     padding: 9.6px 32px;
+    margin-top: 10px;
 
 }
 
@@ -352,6 +349,7 @@ font-weight: 400;
 #threeItemEditorial_container>div{
     width: 423px;
     height: 348px;
+    margin-left: 15px;
     /* border: 2px solid red; */
 }
 
@@ -421,16 +419,17 @@ font-weight: 400;
 
 /* New Arrivals */
 #New_arrivals_container{
-    width: 95%;
+    width: 100%;
     height: 617px;
     margin-top: 10px;
     /* border: 2px solid rgb(249, 3, 3); */
     margin: auto;
+    margin-bottom: -100px;
 }
 
 #New_arrivals_container>h2{
     /* border: 2px solid red; */
-    width: 100%;
+    width: 95%;
     text-align: center;
     font-size: 24px;
     
@@ -440,7 +439,7 @@ font-weight: 400;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(1,500px);
-    gap: 20px;
+    gap: 10px;
     margin: auto;
     justify-content: center;
 }
@@ -448,9 +447,7 @@ font-weight: 400;
 #slider_New_arrivals > div{
     /* border: 2px solid black; */
     align-items: center;
-    
-    
-
+      
 }
 
 #slider_New_arrivals > div > img{
@@ -465,6 +462,7 @@ font-weight: 400;
     font-size: 16px;
     text-decoration: none;
     color: black;
+    
 }
 
 .NewArrivals_img ~ h4 {
@@ -472,6 +470,8 @@ font-weight: 400;
     text-align: center;
     font-size: 15px;
     text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
     /* color: black; */
 }
 
@@ -543,7 +543,7 @@ font-weight: 400;
 .fp03137_h2p{
     text-align: center;
     font-size: 16px;
-    margin-top: -15px;
+    /* margin-top: 15px; */
     margin-bottom: 50px;
 }
 
