@@ -90,15 +90,19 @@ color: #fff;
 font-weight: 700;
 }
 
-#gliderfirstImg{
-    width: 100%;
+/* #gliderfirstImg{
+    width: 80%;
     height: 553px;
     margin: auto;
-}
+} */
 
-#glidersecondImg{
-    width: 100%;
+/* #glidersecondImg{
+    width: 10px;
     height: 553px;
+    margin: auto;
+}  */
+#glidersecondImg img{
+    width: 110%;
     margin: auto;
 }
 #fp03137_responsiveSlot2{
@@ -419,7 +423,7 @@ font-weight: 400;
 
 /* New Arrivals */
 #New_arrivals_container{
-    width: 100%;
+    width: 95%;
     height: 617px;
     margin-top: 10px;
     /* border: 2px solid rgb(249, 3, 3); */

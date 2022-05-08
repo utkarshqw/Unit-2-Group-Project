@@ -6,22 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="page5.css">
+    <link rel="stylesheet" href="page6.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <style>
 
     </style>
 </head>
 
 <body>
-    <div id="brand">
+    <!-- <div id="brand">
         <p class="home">
             Home / SkinCare /Professional Tools&Devices
-        </p>
-
+        </p> -->
+        <div id="nav-placeholder"> 
+        </div>
     </div>
     <div id="main">
         <div id="refine">
@@ -143,5 +144,10 @@
 </body>
 
 </html>
-<script src="page5.js ">
+<script src="page6.js">
+</script>
+<script>
+    $(function(){
+      $("#nav-placeholder").load("../Nav/nav.html");
+    });
 </script>

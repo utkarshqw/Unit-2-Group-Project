@@ -18,7 +18,7 @@
          else if (student.Email === data.Email && student.Pass === data.Pass) {
              alert("Sign in Successful")
              localStorage.setItem("signin", JSON.stringify(student))
-             window.location.href = "index2.html"
+             window.location.href = "../Header homepage/dermstore.html"
          }
          else {
              alert("User Does Not Exist")

@@ -17,6 +17,6 @@ var Arr=[]
  localStorage.setItem("student",JSON.stringify(data))
  localStorage.setItem("Sname",names)
  alert("Signup Successfull")
-window.location.href = "login.html"
+window.location.href = "../Loginpage/login.html"
 
 }
