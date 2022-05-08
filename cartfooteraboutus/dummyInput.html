@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="ottsform">
+      <input id="ottsimg" type="text" placeholder="Enter image URL" />
+      <input id="ottsname" type="text" placeholder="Enter Product name" />
+      <input id="ottsprice" type="number" placeholder="Enter product price" />
+      <input
+        id="ottsquantity"
+        type="number"
+        placeholder="Enter product Quantity"
+      />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
+<script>
+  document.querySelector("form").addEventListener("submit", ottsmyfunction);
+  var productArr = JSON.parse(localStorage.getItem("brand_data")) || [];
+
+  function ottsmyfunction() {
+    event.preventDefault();
+
+    var productObj = {
+      image_url: ottsform.ottsimg.value,
+      name: ottsform.ottsname.value,
+      productPrice: ottsform.ottsprice.value,
+      productQuantity: ottsform.ottsquantity.value,
+    };
+
+    productArr.push(productObj);
+    console.log(productArr);
+
+    localStorage.setItem("brand_data", JSON.stringify(productArr));
+
+    window.location.href = "cart.html";
+  }
+
+  
+</script>
