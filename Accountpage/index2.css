@@ -1,0 +1,283 @@
+    #main {
+        /* margin-top: 300px; */
+        width: 300px;
+        height: 150px;
+        margin-left: 30px;
+        margin-top: 200px;
+      
+       
+    }
+
+
+
+    h2+p {
+        color: rgb(98, 96, 96);
+    }
+
+    h1{
+        
+        text-align: center;
+    }
+    #rewards{
+        width: 600px;
+        height: 250px;
+        border: 2px solid black;
+        margin: auto;
+        cursor: pointer;
+        transition: transform .1s;
+        margin-left: 100px;
+    }
+         #rewards:hover {
+             transform: scale(1.1);
+         }
+        #rewards>p{
+            text-align: center;
+            color: black;
+            font-size: 20px;
+        }
+   #rewards>h2{
+        text-align: center;
+        
+    }
+    .points{
+        width: 200px;
+        height: 50px;
+        border: 2px solid black;
+        margin-left: 50px;
+        font-size: 15px;
+       margin-top: 30px;
+       background-color:black ;
+       color: white;
+       cursor: pointer;
+    }
+ .points:hover{
+            color: rgb(192, 192, 192)
+          
+        }
+        
+  
+    .edit{
+       margin-left: 42%;
+       width: 100px;
+       height: 45px;
+       border: 2px solid black;
+       margin-top: 30px;
+       background-color: black;
+       color: white;
+       cursor: pointer;
+    }
+    #container{
+        display: flex;
+        width: auto;
+        height: auto;
+    }
+         #container2 {
+             display: flex;
+             width: auto;
+             height: auto;
+         }
+
+    #profile{
+        width: 600px;
+            height: 200px;
+            border: 2px solid black;
+            margin: auto;
+            cursor: pointer;
+            transition: transform .1s;
+            margin-left: 50px;
+    }
+    #profile:hover{
+        transform: scale(1.1);
+    }
+    #profile>h2,p{
+        text-align: center;
+    }
+.edit:hover{
+   color: rgb(228, 227, 227);
+}
+
+#refer{
+width: 600px;
+    height: 250px;
+    border: 2px solid black;
+    margin: auto;
+    cursor: pointer;
+    transition: transform .1s;
+    margin-left: 100px;
+}
+
+#refer>p {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+ #refer>h2,
+ p {
+     text-align: center;
+ }
+ .btn{
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+margin-left: 30%;
+  font-size: 15px;
+  margin-top: 30px;
+  background-color:black;
+  color: white;
+  cursor: pointer;
+  }
+
+  .btn:hover {
+      color: rgb(192, 192, 192)
+  }
+
+  #fav {
+      width: 600px;
+      height: 200px;
+      border: 2px solid black;
+      margin: auto;
+      cursor: pointer;
+      transition: transform .1s;
+      margin-left: 50px;
+
+  }
+  .box2{
+      height: 300px;
+
+  }
+   #fav>h2,
+   p {
+       text-align: center;
+   }
+        .favbtn {
+            margin-left: 30%;
+            width: 200px;
+            height: 45px;
+            border: 2px solid black;
+            margin-top: 30px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+ .favbtn:hover {
+               color: rgb(228, 227, 227);
+             }
+ #fav:hover {
+     transform: scale(1.1);
+ }
+  #refer:hover {
+      transform: scale(1.1);
+  }
+  #content{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: repeat(2,200px);
+      gap: 5px;
+      
+  }
+  #content>div{
+       border: 1px solid black; 
+      margin-top: 20px;
+  }
+  .order>h2,p{
+      text-align: center;
+      
+  }
+  .order>p{
+    color: black;
+  }
+   .sub>h2,
+   p {
+       text-align: center;
+
+   }
+
+   .sub>p {
+       color: black;
+   }
+
+   #service{
+       width: 100%px;
+       height: 100%;
+       /* border: 2px solid black; */
+       margin-top: 30px;
+   }
+   .chat{
+       margin-top: 40px;
+       width: 400px;
+       height: 200px;
+       margin: auto;
+       border: 2px solid black;
+       margin-bottom: 20px;
+
+   }
+   #img1{
+       margin: auto;
+       margin-left: 38%;
+       width: 100px;
+     
+   }
+   h2{
+       text-align: center;
+   }
+   #parts{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows: repeat(4,190px);
+       gap: 20px;
+       display: flex;
+   }
+   #parts>div{
+       border: 2px solid black ;
+       width: 300px;
+       height: 200px;
+       margin: auto;
+       margin-top: 10px;
+
+   }
+   #img2{
+       width: 200px;
+       height: 150px;
+       margin: auto;
+       margin-left: 30px;
+       margin-top: 0px;
+
+   }
+   #cl{
+       width: 700px;
+       height: 200px;
+       border: 2px solid black;
+       margin: auto;
+       margin-top: 50px;
+   }
+   #climg{
+       width: 100px;
+       height: 100px;
+       margin-left: 250px;
+
+   }
+   #climg+h3{
+       text-align: center;
+   }
+   #account{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       grid-template-rows: repeat(2,200px);
+       gap: 20px;
+       margin-top: 40px;
+
+   }
+   #account>div{
+       border: 2px solid black;
+       margin-top: 20px;
+   }
+   #accimg{
+       width: 120px;
+       height: 120px;
+       margin-left: 100px;
+   }
+   hr{
+       
+       height: 2px;
+       background-color: black;
+   }
