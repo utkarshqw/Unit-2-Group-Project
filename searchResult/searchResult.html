@@ -5,21 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="page5.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-    <style>
-
-    </style>
+    <title>Search</title>
+    <link rel="stylesheet" href="search.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
-
 <body>
+    <div id="nav-placeholder"> 
+    </div>
+
     <div id="brand">
         <p class="home">
-            Home / Bath&Body/Bath Shower
+            Home/Search-Result
         </p>
 
     </div>
@@ -44,12 +40,8 @@
             </form>
             <form>
 
-
                 <h2>SkinCare Product Type</h2>
                 <hr>
-
-
-
                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                 <label for="vehicle1"> 1Moisturizers</label><br>
                 <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
@@ -61,16 +53,8 @@
                 <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
                 <label for="vehicle3"> Exfoliators&Scrubs</label><br><br>
 
-
-
-
-
-
-
                 <h2>Skin Type</h2>
                 <hr>
-
-
                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                 <label for="vehicle1"> All</label><br>
                 <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
@@ -81,17 +65,9 @@
                 <label for="vehicle3"> Dry</label><br>
                 <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
                 <label for="vehicle3"> Mature</label><br>
-
                 <hr>
-
-
-
-
                 <h2>Skincare Concern</h2>
                 <hr>
-
-
-
                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                 <label for="vehicle1"> Acne</label><br>
                 <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
@@ -105,12 +81,8 @@
 
                 <hr>
 
-
-
                 <h2>Haircare category</h2>
                 <hr>
-
-
                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                 <label for="vehicle1"> Hair Preparation</label><br>
                 <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
@@ -124,24 +96,32 @@
 
         </div>
         <div id="container1">
-            <h2>BathShower</h2>
-            <p class="brand">At Dermstore, we understand that you don't always have the luxury to indulge in lengthy baths and pampering very often. That's why we offer a collection of the highest quality bath and shower products that will help you take advantage of the
-                time that you do have. Rich bath gels, exfoliating cleansers and bar soaps enriched with vitamins and minerals will make you feel and look as though you just stepped out of a spa.</p>
-            <!-- <h40>Sorted by :</h4> -->
-            <select name=" " id="sortPrice" onChange="handlePriceSort()">
-                
+            <h2>Search Result</h2>
+            <p class="brand">The beauty, skin & hair products you're unapologetically obsessed with. And we understand.
+                From skin care as an expression of self-care, to hair care revolve self-confidence around, shop our
+                tried and tested products that are loved by thousands
+                delivered straight to your door.</p>
+            <h40>Sorted by :</h4>
+                <select name=" " id="sortPrice" onChange="handlePriceSort()">
+
                     <option value="none">Dfault</option>
                     <option value="HTL">High to low</option>
                     <option value="LTH">Low to high</option>
                 </select>
-            <div id="display-container"></div>
-
-
+                <div id="container"></div>
         </div>
     </div>
-
+    <div id="footer"></div>
 </body>
 
 </html>
-<script src="page5.js ">
+<script src="search.js">
+</script>
+<script>
+    $(function(){
+      $("#footer").load("../Footer/footer.html");
+    });
+    $(function(){
+      $("#nav-placeholder").load("../Nav/nav.html");
+    });
 </script>
