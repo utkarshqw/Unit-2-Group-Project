@@ -3,7 +3,7 @@
         width: 300px;
         height: 150px;
         margin-left: 30px;
-        margin-top: 200px;
+        margin-top: 100px;
       
        
     }
@@ -21,7 +21,8 @@
     #rewards{
         width: 600px;
         height: 250px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         margin: auto;
         cursor: pointer;
         transition: transform .1s;
@@ -42,7 +43,8 @@
     .points{
         width: 200px;
         height: 50px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         margin-left: 50px;
         font-size: 15px;
        margin-top: 30px;
@@ -60,7 +62,8 @@
        margin-left: 42%;
        width: 100px;
        height: 45px;
-       border: 2px solid black;
+       /* border: 2px solid black; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
        margin-top: 30px;
        background-color: black;
        color: white;
@@ -80,7 +83,8 @@
     #profile{
         width: 600px;
             height: 200px;
-            border: 2px solid black;
+            /* border: 2px solid black; */
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             margin: auto;
             cursor: pointer;
             transition: transform .1s;
@@ -99,7 +103,8 @@
 #refer{
 width: 600px;
     height: 250px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin: auto;
     cursor: pointer;
     transition: transform .1s;
@@ -118,7 +123,8 @@ width: 600px;
  .btn{
   width: 200px;
   height: 50px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 margin-left: 30%;
   font-size: 15px;
   margin-top: 30px;
@@ -134,7 +140,8 @@ margin-left: 30%;
   #fav {
       width: 600px;
       height: 200px;
-      border: 2px solid black;
+      /* border: 2px solid black; */
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       margin: auto;
       cursor: pointer;
       transition: transform .1s;
@@ -153,7 +160,8 @@ margin-left: 30%;
             margin-left: 30%;
             width: 200px;
             height: 45px;
-            border: 2px solid black;
+            /* border: 2px solid black; */
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             margin-top: 30px;
             background-color: black;
             color: white;
@@ -176,7 +184,8 @@ margin-left: 30%;
       
   }
   #content>div{
-       border: 1px solid black; 
+       /* border: 1px solid black;  */
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       margin-top: 20px;
   }
   .order>h2,p{
@@ -201,20 +210,24 @@ margin-left: 30%;
        height: 100%;
        /* border: 2px solid black; */
        margin-top: 30px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 30px;
    }
    .chat{
        margin-top: 40px;
        width: 400px;
        height: 200px;
        margin: auto;
-       border: 2px solid black;
+       /* border: 2px solid black; */
        margin-bottom: 20px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
    }
    #img1{
        margin: auto;
-       margin-left: 38%;
-       width: 100px;
+       margin-left: 42%;
+       width: 50px;
+       
      
    }
    h2{
@@ -228,7 +241,8 @@ margin-left: 30%;
        display: flex;
    }
    #parts>div{
-       border: 2px solid black ;
+       /* border: 2px solid black ; */
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
        width: 300px;
        height: 200px;
        margin: auto;
@@ -236,17 +250,19 @@ margin-left: 30%;
 
    }
    #img2{
-       width: 200px;
-       height: 150px;
+       width: 80px;
+       /* height: 150px; */
        margin: auto;
-       margin-left: 30px;
-       margin-top: 0px;
+       padding-left:35%;
+       padding-top: 30px;
+      
 
    }
    #cl{
        width: 700px;
        height: 200px;
-       border: 2px solid black;
+       /* border: 2px solid black; */
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
        margin: auto;
        margin-top: 50px;
    }
@@ -268,7 +284,8 @@ margin-left: 30%;
 
    }
    #account>div{
-       border: 2px solid black;
+       /* border: 2px solid black; */
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
        margin-top: 20px;
    }
    #accimg{
@@ -281,3 +298,141 @@ margin-left: 30%;
        height: 2px;
        background-color: black;
    }
+   /* Banner  */
+
+   /* poster banner */
+   #posterbanner {
+       border: 1px solid rgba(0, 0, 0, 0.267);
+       background-color: rgba(128, 128, 128, 0);
+       margin-bottom: 30px;
+   }
+
+   #posterbanner img {
+       width: 300px;
+
+   }
+
+
+        #fw181237parent {
+            background-color: white;
+            /* background-color: aquamarine; */
+        }
+    
+        #fw18137A1 hr {
+            /* border: 1px solid white;
+                 margin-top: 10px; */
+    
+            height: 1px;
+            background-color: gray;
+            border: none;
+        }
+    
+        #fw181237a {
+            display: flex;
+            /* border: 1px solid red; */
+            padding: 20px;
+        }
+    
+        #fw181237a>div {
+            /* border: 1px solid green; */
+            width: 50%;
+            margin: 10px;
+        }
+    
+        #fw18137A1 a {
+            font-size: 40px;
+            color: gray;
+        }
+    
+        #fw18137A1 button {
+    
+            border: 2px solid white;
+            background-color: #1a1b1a;
+            padding: 0px 40px 0px 40px;
+            color: white;
+        }
+    
+        #fw18137A1 button:hover {
+            background-color: gray;
+        }
+    
+        #fw181237social>a {
+            margin-right: 15px;
+    
+    
+        }
+    
+        #fw181237social>a:hover {
+            color: rgba(128, 128, 128, 0.478);
+    
+        }
+    
+    
+        #fw181237grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 250px;
+            gap: 20px;
+            /* border: 1px solid red; */
+            width: 96%;
+            margin: auto;
+        }
+    
+        /* #grid > div {
+            border: 1px solid purple;
+          } */
+    
+        #fw181237secondBox {
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: space-between;
+            width: 96%;
+            margin: auto;
+        }
+    
+        #fw181237secondBox>div:nth-child(1) {
+            /* border: 1px solid red; */
+            width: 100%;
+            margin-right: 20px;
+        }
+    
+        #fw181237thirdbox {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            width: 97%;
+            margin: auto;
+        }
+    
+        #fw181237lastgrid {
+            display: grid;
+            grid-template-columns: repeat(9, 1fr);
+            grid-template-rows: repeat(2, 50px);
+            gap: 10px;
+    
+    
+        }
+    
+        #fw181237lastgrid>div {
+            /* border: 1px solid red; */
+            font-size: 50px;
+    
+        }
+    
+        .fw181237hov:hover {
+            background-color: rgb(128, 128, 128);
+    
+        }
+    
+        #fw181237lastgrid div>img {
+            width: 100%;
+            height: 100%;
+        }
+            .fw-18{
+                text-align: left;
+            }
+
+            .fw181237hov{
+                text-align: left;
+            }
